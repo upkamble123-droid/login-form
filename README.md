@@ -39,10 +39,6 @@ login-form/
 
 ⚡ How to Use
 
-Clone or download this repository
-
-git clone https://github.com/your-username/login-form.git
-
 
 Open index.html in your browser
 
