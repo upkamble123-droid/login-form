@@ -1,0 +1,38 @@
+/* default setting */
+* {
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    margin: 0;
+}
+
+/* variables */
+
+:root {
+    --bg: #0b1220;
+    --surface: #111827;
+    --border: #283243;
+    --text: #ffffff;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* this is new thing which does not include nav and footer */
+    height: 100svh;
+}
+
+.card {
+    background-color: var(--surface);
+    width: 500px;
+
+    border: solid var(--border);
+    border-radius: 14px;
+}
